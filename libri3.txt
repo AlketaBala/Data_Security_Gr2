@@ -1,0 +1,1 @@
+ne jemi grupi dy dhe kemi punuar projektin ne gjuhen programuese php ne te cilen ne kemi krijuar nje book cipher i cili si liber merr tekst dokument dhe i kemi japur 3 opsione te zgjedhjes
