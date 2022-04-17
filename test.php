@@ -22,3 +22,11 @@ input[type=text] {
 
  
 }
+  #button {
+  background-color: lightblue;
+  border-radius: 12px;
+  width: 15%;
+  height: 30px;
+  margin-bottom:15px;
+  margin-top:15px;
+}
