@@ -87,3 +87,32 @@ for ( $i=0;$i<str_word_count($fname);$i++)
 
 
 ?>
+
+
+<br>
+
+<div class="myDiv">
+
+  <h3>Teksti juaj i enkriptuar: </h3>
+
+  <p> 
+
+      <?php 
+
+     for($y=0;$y<str_word_count($fname);$y++)
+
+     {
+
+        echo $arryakey[$y]." ";
+
+     }
+
+     ?>
+
+    </p>
+
+</div>
+
+<br>
+
+
