@@ -13,3 +13,12 @@ input[type=text] {
   color: white;
 
 }
+  .myDiv {
+  border: 5px outset blue;
+  background-color: lightblue;    
+  text-align: center;
+  width: 40%;
+
+
+ 
+}
