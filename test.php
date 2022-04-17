@@ -114,5 +114,19 @@ for ( $i=0;$i<str_word_count($fname);$i++)
 </div>
 
 <br>
-
+<br>
+<div class="myDiv">
+  <h3>Kodi juaj i dekriptuar: </h3>
+  <p> 
+      <?php 
+     for($x=0;$x<str_word_count($fname);$x++)
+     {
+        echo $arrdekodim[$x]." ";
+     }
+     ?>
+    </p>
+</div>
+    </center>
+</body>
+</html>
 
