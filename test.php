@@ -38,3 +38,19 @@ body {
     background-position: center center;
   background-image: url('enkrypto.png');
 }
+</style>
+</head>
+<body>
+    <center>
+    <h1>CRYPTOOL A -- BOOK CIPHER</h1>
+
+<form action="test.php" method="GET" >
+  
+  <label for="fname">Zgjedhe file të cilin dëshiron ta përdorni si çelës:</label><br>
+  <input type="text" id="flibri" name="flibri" value="libri.txt"><br>
+  <label for="fname">Shkruje Plaintext:</label><br>
+  <input type="text" id="fname" name="fname" ><br>
+ 
+  <input type="submit" value="Submit" id="button">
+
+</form>
