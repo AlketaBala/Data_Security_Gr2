@@ -54,3 +54,36 @@ body {
   <input type="submit" value="Submit" id="button">
 
 </form>
+<?php
+
+$fname=$_GET['fname'];
+$arrfname = str_word_count($fname, 1);
+
+
+$libri = $_GET['flibri'];
+$teksti = file($libri);
+
+foreach ($teksti as $element) {
+// echo str_word_count($element)."\n";
+$arr = str_word_count($element, 1);
+
+$key = array_search($fname, $arr);
+ 
+
+}
+
+for ( $i=0;$i<str_word_count($fname);$i++)
+{
+   
+    $key = array_search($arrfname[$i], $arr);
+    
+    $arryakey[$i]=$key;
+    $arrdekodim[$i]= $arr[$arryakey[$i]];
+    
+
+
+
+}
+
+
+?>
