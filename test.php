@@ -30,3 +30,11 @@ input[type=text] {
   margin-bottom:15px;
   margin-top:15px;
 }
+
+
+body {
+    color:white;
+    background-repeat: no-repeat;
+    background-position: center center;
+  background-image: url('enkrypto.png');
+}
